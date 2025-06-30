@@ -135,8 +135,6 @@ def generate_pdf_report(data):
         return f"Error generating report: {str(e)}"
 
 
-# ස
-
 # Streamlit App
 st.set_page_config(page_title="SmartStock Analyst", layout="centered")
 st.title("📈 SmartStock Analyst")
