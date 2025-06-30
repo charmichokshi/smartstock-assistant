@@ -97,30 +97,30 @@ Access the app via the provided Cloud Run URL (e.g., https://smartstock-analyst-
 
 ## Usage
 
-Open the app in a browser (local: http://localhost:8501, Cloud Run: provided URL).
-Enter a stock ticker (e.g., "What's happening with PLTR?") in the text input.
-Optionally upload a financial chart (PNG/JPG).
-Click "Analyze" to view:
-Stock summary (current price, daily/weekly change).
-Trend analysis (full name, trend, news connection, investor insight).
-Sentiment analysis (bullish/bearish based on news).
-Chart analysis (if uploaded).
-Download the PDF report for a summary.
+- Open the app in a browser (local: http://localhost:8501, Cloud Run: provided URL).
+- Enter a stock ticker (e.g., "What's happening with PLTR?") in the text input.
+- Optionally upload a financial chart (PNG/JPG).
+- Click "Analyze" to view:
+- Stock summary (current price, daily/weekly change).
+- Trend analysis (full name, trend, news connection, investor insight).
+- Sentiment analysis (bullish/bearish based on news).
+- Chart analysis (if uploaded).
+- Download the PDF report for a summary.
 
 
 ## Limitations
 
-AI Accuracy: The app uses AI-generated responses (Gemini 2.5 Pro), which may be inaccurate. Use with caution.
-Data Sources: Relies on Yahoo Finance and Google News RSS, which may have delays or limitations.
-Agentic Scope: The app leverages an agent development framework for autonomous task execution, ticker validation, and error handling but does not implement advanced agentic features like iterative reasoning, memory management, or multi-agent collaboration.
+- AI Accuracy: The app uses AI-generated responses (Gemini 2.5 Pro), which may be inaccurate. Use with caution.
+- Data Sources: Relies on Yahoo Finance and Google News RSS, which may have delays or limitations.
+- Agentic Scope: The app leverages an agent development framework for autonomous task execution, ticker validation, and error handling but does not implement advanced agentic features like iterative reasoning, memory management, or multi-agent collaboration.
 
 
 ## Future Improvements
 
-Enhance agentic capabilities with iterative reasoning or user feedback loops.
-Integrate additional data sources (e.g., X posts for sentiment).
-Implement user authentication for private access.
-Optimize Docker image size for faster deployments.
+- Enhance agentic capabilities with iterative reasoning or user feedback loops.
+- Integrate additional data sources (e.g., X posts for sentiment).
+- Implement user authentication for private access.
+- Optimize Docker image size for faster deployments.
 
 
 ## License
