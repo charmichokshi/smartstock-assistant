@@ -130,4 +130,4 @@ Contributions are welcome! Please open an issue or submit a pull request for bug
 ## Contact
 For questions, contact [charmichokshi@gmail.com] or open an issue on GitHub.
 
-Built with ❤️ by [Charmi Chokshi]
+Google Cloud credits are provided for this project.
