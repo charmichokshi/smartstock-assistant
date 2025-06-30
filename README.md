@@ -2,6 +2,8 @@
 
 A Streamlit-based web application that analyzes stock performance using real-time data, news sentiment, and optional chart analysis, powered by Gemini 2.5 Pro and an agent development framework. The app autonomously fetches stock data, performs sentiment and trend analysis, and generates downloadable PDF reports. Deployable on Google Cloud Run using Docker.
 
+![SmartStock Analyst UI](images/video.gif)
+
 ## Features
 
 - **Stock Data Analysis**: Fetches real-time stock prices and weekly trends using `yfinance`.
@@ -126,8 +128,5 @@ MIT License. See LICENSE for details.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for bug fixes, features, or improvements.
-
-## Contact
-For questions, contact [charmichokshi@gmail.com] or open an issue on GitHub.
 
 Google Cloud credits are provided for this project.
